@@ -1,0 +1,80 @@
+.hs-faq-container{
+    width: 100%;
+    text-align: left;
+    font-family: inherit;
+}
+.hs-faq-accordion.ui-accordion.ui-widget{
+    font-family: inherit;
+}
+.hs-faq-qustion{
+    font-family: inherit;
+    font-size: inherit;
+}
+.hs-faq-container article.ac-small {
+    padding: 0;
+}
+.hs-faq-container .ui-accordion .ui-accordion-header{
+    margin: 0;
+    border-bottom: 1px solid #1a1a1a;
+    border-radius: 0;
+    background: #333 none repeat scroll 0 0;
+    color: #fff !important;
+    transition: all 0.15s linear 0s;
+    text-shadow: 0 1px 0 #1a1a1a;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+.hs-faq-container .ui-accordion .ui-accordion-header:after{
+    content: "+";
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.hs-faq-container .ui-accordion .ui-accordion-header.ui-state-active:after{
+    content: "-";
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.hs-faq-container .ui-accordion .ui-accordion-header:hover,
+.hs-faq-container .ui-accordion .ui-accordion-header.ui-state-active{
+    background: #4c4c4c none repeat scroll 0 0;
+}
+
+.hs-faq-container .ui-state-default, 
+.hs-faq-container .ui-widget-content .ui-state-default, 
+.hs-faq-container .ui-widget-header .ui-state-default{
+    border: 0 none;
+}
+
+.hs-faq-container .ui-accordion .ui-accordion-content {
+    background: #f7f7f7 none repeat scroll 0 0;
+    padding: 15px;
+}
+.hs-faq-container .ui-accordion-content h3{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-family: inherit;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 10px;
+}
+.hs-faq-container .ui-accordion-content p,
+.hs-faq-container .ui-accordion-content ul li{
+    font-size: 16px;
+    font-family: inherit;
+}
+.hs-faq-container .ui-corner-all, 
+.hs-faq-container .ui-corner-bottom, 
+.hs-faq-container .ui-corner-right, 
+.hs-faq-container .ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+.hs-faq-container .ui-corner-all, 
+.hs-faq-container .ui-corner-bottom, 
+.hs-faq-container .ui-corner-left, 
+.hs-faq-container .ui-corner-bl {
+    border-bottom-left-radius: 0;
+}
